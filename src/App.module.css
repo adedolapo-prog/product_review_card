@@ -29,7 +29,6 @@
 @media (max-width: 500px) {
   .inner_container {
     margin: 2rem auto;
-    background-color: gray;
     height: auto;
     width: 25rem;
     flex-direction: column;
@@ -37,5 +36,15 @@
 
   .flex_item:first-child {
     height: 18rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .inner_container {
+    width: 23rem;
+  }
+
+  .flex_item {
+    width: auto;
   }
 }
