@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300;400&display=swap");
+
+.flex_item_two {
+  background-color: #fff;
+  padding: 50px;
+}
+
+.flex_item_two h2 {
+  font: 40px "Fraunces";
+  font-weight: 700;
+  margin: 1.5rem 0;
+}
+
+p {
+  color: hsl(228, 12%, 48%);
+}
+
+.first_card p {
+  letter-spacing: 5px;
+}
+
+.second_card p {
+  line-height: 1.5;
+}
+
+.prices {
+  display: flex;
+  align-items: center;
+}
+
+.prices h2 {
+  margin-right: 30px;
+  color: hsl(158, 36%, 37%);
+}
+
+.prices p {
+  text-decoration: line-through;
+}
+
+.button {
+  width: 100%;
+  padding: 0.8rem 0;
+  border-radius: 5px;
+  background-color: hsl(158, 36%, 37%);
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+}
+
+.button span {
+  padding: 0 15px;
+}
+
+@media (max-width: 500px) {
+  .flex_item_two {
+    padding: 30px;
+  }
+}
